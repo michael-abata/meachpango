@@ -1,0 +1,41 @@
+nav li{
+    list-style: none;
+    display: inline-table;
+    color: white;
+    font-family: "Paytone One", sans-serif;
+    background-color: #383e42;
+        text-shadow: 4px 3px dimgrey;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 dimgrey, 0 6px 20px 0 dimgray;
+    ;
+}
+
+nav{
+    text-align: center;
+
+}
+body {
+    background-image: url(images/background1.jpg)
+}
+a:link, a:visited{
+    color: white;
+    text-decoration: none;
+    border: 10px black;
+    padding: 10px;
+    
+
+}
+li a:hover, li a:active{
+    background-color: dimgrey;
+    color: blanchedalmond;
+    text-decoration: underline;
+}
+#developer{
+    padding-left: 260px;
+    padding-top: 100px;
+}
+
+#developer img{
+    width: 410px;
+    height:auto;
+}
